@@ -48,7 +48,7 @@ const crearElemento = (bitacora, tbody) =>{
     let tr = document.createElement("tr"); 
     Object.values(bitacora).forEach(item => { 
      let td = document.createElement("td"); 
-     let content = document.createTextNode(item); 
+     let content = document.createTextNode(item);
      td.appendChild(content); 
      tr.setAttribute("class", "click"); 
      tr.appendChild(td); 
@@ -93,8 +93,7 @@ var validarFormulario = (formulario) => {
             formulario[i].style.borderColor = "green";
         }
     }
-    console.log(flag);
-    console.log(formulario);
+
     return flag;
 }
 
